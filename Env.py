@@ -135,5 +135,5 @@ class CabDriver():
 
 
     def reset(self):
-        self.TIME = 0
+#         self.TIME = 0
         return self.action_space, self.state_space, self.state_init
